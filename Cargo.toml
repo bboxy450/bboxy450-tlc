@@ -1,0 +1,14 @@
+[package]
+name = "bboxy450-tlc"
+description = "Experimental pure Rust finite-state model checker with independent TLA+/TLC differential verification"
+version = "0.1.1"
+edition = "2024"
+authors = ["Boxy <bboxy450@gmail.com>"]
+rust-version = "1.99"
+repository = "https://github.com/bboxy450/bboxy450-tlc"
+license-file = "LICENSE"
+readme = "README.md"
+keywords = ["model-checking", "tla", "verification", "concurrency", "yarn"]
+categories = ["development-tools::testing"]
+
+[workspace]

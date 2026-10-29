@@ -1,0 +1,6 @@
+[[crate]]
+name = "bboxy450-tlc"
+status = "contract-model"
+models = ["Counter", "FairResponse", "WeakFairFlicker", "StutteringIsNotFairProgress", "SimultaneousUpdates"]
+scope = "Finite native checker/expression exporter conformance; no complete TLA+ parser or arbitrary implementation proof."
+sources = ["src/lib.rs", "examples/verify.rs"]
