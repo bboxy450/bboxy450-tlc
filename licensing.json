@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "project": "bboxy450-tlc",
+  "source_project": "bboxy450-term",
+  "source_roots": [
+    "."
+  ],
+  "preserved": {
+    "LICENSE-MIT": "e3012f47cfba2c19c3ee490477faf30d45d1234759c86508a18f487ebe564c0a",
+    "LICENSE-APACHE": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+  },
+  "shared": {
+    "scripts/suite-licenses.py": "d65dfe5c3a49efae22a20917bcfb99d7e1fc32f58acfca280216d262834bf863",
+    "scripts/test-suite-licenses.py": "8d4179210d141dca87dbd4450937b1c033f20b8e9ae8d7e6a748b4a3a2adb5dc"
+  }
+}

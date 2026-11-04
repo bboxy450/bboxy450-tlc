@@ -7,6 +7,7 @@ authors = ["Boxy <bboxy450@gmail.com>"]
 rust-version = "1.99"
 repository = "https://github.com/bboxy450/bboxy450-tlc"
 license-file = "LICENSE"
+exclude = [".bboxy/**"]
 readme = "README.md"
 keywords = ["model-checking", "tla", "verification", "concurrency", "yarn"]
 categories = ["development-tools::testing"]
