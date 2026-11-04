@@ -4,24 +4,35 @@
   "publication": "https://github.com/bboxy450/bboxy450-tlc",
   "export_sha256": {
     ".github/workflows/ci.yml": "08c7143b5b2774f9d3a4f5b14925cb9ffd5530618533f5bcf633382921ab0935",
-    ".gitignore": "1141064ed2630abfb4a4b52385d7e6c5676a9a51c3c01a4884a7cdaf05609a74",
+    ".gitignore": "dace700387205603ea04d8b04092ed9daefb85b3e089481b0d4659d4cb4a168c",
     "AGENTS.md": "62a1dbd7129613f69aa0c84088b14c3edb17bf21e084eb0ee16d692c4345d9ba",
-    "ATTRIBUTION.md": "2f25d4c0a9f7e37c97db8ebfc6af6ffb3d28d62fc7867c1486f7126c7476da71",
-    "Cargo.toml": "efdb0f6a1fac278f21da88eefb9098f792d1602f501571334cb512eee53a0764",
+    "ATTRIBUTION.md": "f515561dcfe8ecbb73b95e0f504fdc42f7e675d478109bec297b0d8e976ac065",
+    "Cargo.toml": "5c5062500f42a2b7be729dde74d3f17751c53a0b5ccd7451e407f914f9dd9dd2",
     "LICENSE": "07c15c9bc6b7c6ca2b8ef48c57421f4317cacc3ba6b27272dbbbc1c99013daaa",
     "LICENSE-APACHE": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
     "LICENSE-MIT": "e3012f47cfba2c19c3ee490477faf30d45d1234759c86508a18f487ebe564c0a",
-    "Makefile": "02d1caeaddc6077643dfe6defa7f13c6b9976b802b6a5da6dbd815d29b773c21",
+    "Makefile": "630a74d22d0789869e5fdfc17fd9509fcd971ab0718799a642ebe9d701e3b11f",
     "NOTICE": "bf12d81bac8a4d31df48c32f4bcf86e50f8487f148283e45b6df27f5fa435dec",
     "README.md": "7784317324b2804fd926e80bfae7e60324208651609ba4f6220f9ae322078f2e",
     "examples/verify.rs": "88b6400d6a883b25f2eca777cb936ba568f9e9ef702f51aef4f7b83e022c8fb8",
+    "licensing.json": "4adf2b2c8c6a15e636bc61e298f91ab18b3a43eb2079419587da8e9890fdc8f5",
     "scripts/crates-publisher.py": "02eae3c93abc4276631b63529d2c6835e5bb64c3c35d813f28b864af9dae7fd5",
     "scripts/formal.py": "cb93017364ba6538c9ee3ecc26910344a96dfae2352b627321715b776e54013e",
+    "scripts/suite-licenses.py": "d65dfe5c3a49efae22a20917bcfb99d7e1fc32f58acfca280216d262834bf863",
     "scripts/test-formal.py": "ab024ea8aef963f3078f421ebf0c8f31cdaeab54dab3a4eff1cc5ced02b8be38",
+    "scripts/test-suite-licenses.py": "8d4179210d141dca87dbd4450937b1c033f20b8e9ae8d7e6a748b4a3a2adb5dc",
     "src/lib.rs": "5e3921f774f60e96e4364ea15dddd29c4b360f4dbcd521c4b621c1568a379ff2",
     "tests/model_checker.rs": "47f1b945457fe4bd7ee03e8e67c970d9a8ec0e0a8fc2861f33b785c97d7b9ee1",
     "verification/corpus.toml": "1a230c18ef4f9b8bdc0a8d1003b81da5621f10c7b3fac17d06ef9c62fd308da5",
     "verification/coverage.toml": "50b9e542ea89141899c2e8410e37b4c54db8585fbb54c38897ca1a610514e7ea",
     "verification/tools.lock.json": "45d8a35d0b533e53689efc46542315cf91713ee5821a2f002289cc0b8bc7a8dd"
+  },
+  "licensing": {
+    "source": "https://github.com/bboxy450/bboxy450-term",
+    "shared": {
+      "scripts/suite-licenses.py": "d65dfe5c3a49efae22a20917bcfb99d7e1fc32f58acfca280216d262834bf863",
+      "scripts/test-suite-licenses.py": "8d4179210d141dca87dbd4450937b1c033f20b8e9ae8d7e6a748b4a3a2adb5dc"
+    },
+    "scope": "Policy checks and packaging only; implementation source retains the revision above."
   }
 }
